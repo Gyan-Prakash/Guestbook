@@ -13,4 +13,4 @@ public class SpringBootMvcApplicationTests {
 	public void contextLoads() {
 	}
 
-}
+
