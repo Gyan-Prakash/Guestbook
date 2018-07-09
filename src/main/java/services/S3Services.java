@@ -55,7 +55,7 @@ public class S3Services {
 		try
 		{
 			
-			System.out.println("S3Object: "+srcKey);
+			logger.log("S3Object: "+srcKey);
 			File compressedfile=S3Services.convert(filePath, srcKey);	
 			S3Services.pushobject(srcBucket,srcKey, compressedfile,s3);
 		}
@@ -100,14 +100,14 @@ public class S3Services {
      {
      try
      {
-       System.out.println("Uploadbucket: "+srcBucket);
+       logger.log("Uploadbucket: "+srcBucket);
        s3.putObject(new PutObjectRequest(srcBucket,filename,compressedImageFile).withCannedAcl(CannedAccessControlList.PublicRead));
         
      }
 
      catch(Exception e)
      {
-     	System.out.println("4.Exception occured with trace\n"+e+"\n"+e.getMessage());
+     	logger.log("4.Exception occured with trace\n"+e+"\n"+e.getMessage());
        
      }
 
