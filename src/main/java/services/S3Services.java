@@ -27,7 +27,7 @@ public class S3Services {
 
 	private AmazonS3Client s3;
 
-	private String bucketName="meghaproject";//"<Enter Your BucketName>";
+	private String bucketName="meghaproject";
 	public S3Services() throws IOException
     {
     super();
