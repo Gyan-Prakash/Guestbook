@@ -1,12 +1,12 @@
 //package services;
 
 
-import java.awt.image.BufferedImage;
+//import java.awt.image.BufferedImage;
 //import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.Iterator;
+//import java.io.FileOutputStream;
+//import java.io.IOException;
+//import java.io.OutputStream;
+//import java.util.Iterator;
 
 import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
@@ -19,7 +19,7 @@ import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 
-import config.AWSConfig;
+//import config.AWSConfig;
 
 
 @Service
