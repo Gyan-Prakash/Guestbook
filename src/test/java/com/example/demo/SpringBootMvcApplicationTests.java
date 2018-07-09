@@ -12,5 +12,6 @@ public class SpringBootMvcApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+}
 
 
